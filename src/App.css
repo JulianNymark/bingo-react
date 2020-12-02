@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bingo, img {
+  height: 100vh;
+}
+
+.image-map__content img {
+  width: revert;
+}
+
+
+.image-map__content {
+  width: min-content;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-item {
+  display: block;
+  flex: 0 1;
+  margin: auto;
+  width: min-content;
+}
+
+.image-map__content.usage-map > span {
+  border: 1px solid gray;
+}
+
+.bingo-container {
+  position: relative;
+}
+
+.bingo-square {
+  position: absolute;
+  pointer-events: none;
+}
